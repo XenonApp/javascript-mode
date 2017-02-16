@@ -1,8 +1,10 @@
-var symbol = require("zed/symbol");
+'use strict';
+
+var symbol = xenon.symbol;
 
 var FN_REGEX = /function\s*\*?\s+([a-zA-Z0-9_\-\$]+)\s*\(([^\)]*)\)/mg;
 var PROP_FN_REGEX = /([a-zA-Z0-9_\-\$]+)\s*[:=]\s*function\s*\*?\s*\(([^\)]*)\)/mg;
-var indexToLine = require("zed/util").indexToLine;
+var indexToLine = xenon.util.indexToLine;
 
 /**
  * Required inputs: text

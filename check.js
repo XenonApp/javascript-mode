@@ -1,4 +1,4 @@
-var lint = require("./jshint.js");
+var lint = require("./jshint.js").JSHINT;
 var identRegex = /[a-zA-Z\$_0-9]/;
 
 function startRegex(arr) {
