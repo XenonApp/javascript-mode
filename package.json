@@ -1,7 +1,7 @@
 {
     "name": "JavaScript mode",
     "uri": "gh:xenonapp/javascript-mode",
-    "version": "0.3",
+    "version": "0.4.0",
     "description": "JavaScript mode for Zed",
     "files": [
         "beautify-js.js",

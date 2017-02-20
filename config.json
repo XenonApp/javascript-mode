@@ -13,8 +13,7 @@
                     options: {
                         undef: true,
                         unused: true,
-                        es5: true,
-                        esnext: true,
+                        esversion: 6,
                         devel: true,
                         browser: true,
                         node: true,
