@@ -1,13 +1,26 @@
 {
-    "name": "JavaScript mode",
-    "uri": "gh:xenonapp/javascript-mode",
-    "version": "0.4.0",
-    "description": "JavaScript mode for Zed",
-    "files": [
-        "beautify-js.js",
-        "beautify.js",
-        "check.js",
-        "index.js",
-        "jshint.js"
-    ]
+  "name": "xenon-javascript-tools",
+  "version": "0.0.0",
+  "description": "Javascript tools for Xenon.  Includes linting, beautifying and indexing.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XenonApp/javascript-tools.git"
+  },
+  "keywords": [
+    "xenon",
+    "xenon-package"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XenonApp/javascript-tools/issues"
+  },
+  "homepage": "https://github.com/XenonApp/javascript-tools#readme",
+  "dependencies": {
+    "jshint": "^2.9.4"
+  }
 }

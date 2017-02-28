@@ -1,5 +1,5 @@
-var beautifier = require("./beautify-js.js");
-var beautify = require("zed/lib/beautify");
+const beautify = xenon.lib.beautify;
+const beautifier = require("./beautify-js.js");
 
 /**
  * Required inputs: text, preferences
